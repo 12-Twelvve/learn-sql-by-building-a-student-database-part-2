@@ -66,3 +66,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ls --color=auto
 psql -U postgres < student.sql
 psql -U postgres < students.sql
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
