@@ -22,3 +22,4 @@ echo -e "\nFirst name, last name, and GPA of students who have not selected a ma
 echo "$($PSQL "SELECT first_name, last_name, gpa FROM students WHERE major_id IS NULL AND (first_name LIKE 'D%' OR gpa > 3.0)")"
 
 echo -e "\nCourse name of the first five courses, in reverse alphabetical order, that have an 'e' as the second letter or end with an 's':"
+echo "$($PSQL "select course from courses where course like '_e%' or course like '%s' order by course desc limit 5")"
