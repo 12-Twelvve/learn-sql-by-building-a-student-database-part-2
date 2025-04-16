@@ -252,3 +252,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 clear
 clear
 ./student_info.sh
+clear
